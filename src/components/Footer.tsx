@@ -170,8 +170,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-teal-400 flex-shrink-0" />
-                <a href="mailto:rishabh@mavikajourney.com" className="text-gray-300 hover:text-teal-400 transition-colors">
-                  rishabh@mavikajourney.com
+                <a href="mailto:info@mavikajourney.com" className="text-gray-300 hover:text-teal-400 transition-colors">
+                info@mavikajourney.com
                 </a>
               </li>
               <li className="mt-4 pt-4 border-t border-gray-700">
