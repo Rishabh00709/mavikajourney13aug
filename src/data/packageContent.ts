@@ -84,17 +84,12 @@ export const packageContent: Record<string, PackageContent> = {
       }
     ],
     inclusions: [
-      "3 nights accommodation in heritage hotel",
-      "All meals (breakfast, lunch, dinner)",
-      "Private boat rides on Ganges",
-      "Expert local guide",
-      "All temple entry fees",
+      "3 nights accommodation ",
+      "Complimentary Breakfast ",
       "Airport transfers",
-      "Sarnath excursion with transport",
-      "Traditional silk workshop"
+      "Sarnath excursion with transport"
     ],
     exclusions: [
-      "International flights",
       "Personal expenses",
       "Tips and gratuities",
       "Travel insurance",
@@ -219,8 +214,6 @@ export const packageContent: Record<string, PackageContent> = {
       "5 nights accommodation (Port Blair, Havelock, Neil Island)",
       "All inter-island ferry transfers",
       "Airport pickup and drop",
-      "Cellular Jail Light & Sound Show tickets",
-      "Water sports activities at Elephant Beach",
       "Snorkeling equipment and guide"
     ],
     exclusions: [
@@ -341,10 +334,10 @@ export const packageContent: Record<string, PackageContent> = {
     ],
     inclusions: [
       "4 nights accommodation in beachfront hotels",
-      "Daily breakfast and select meals",
+      "Daily breakfast",
       "Airport/railway station transfers",
       "Fort Aguada and Old Goa guided tours",
-      "Dudhsagar Falls jeep safari with guide",
+      "Dudhsagar Falls jeep safari ",
       "Spice plantation tour with traditional lunch",
       "Mandovi River cruise with cultural show",
       "Water sports equipment and safety gear"

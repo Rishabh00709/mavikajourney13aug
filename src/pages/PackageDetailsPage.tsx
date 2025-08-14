@@ -140,14 +140,14 @@ const PackageDetailsPage = () => {
     reviews: [
       {
         id: "1",
-        name: "Travel Enthusiast",
+        name: "Vikaram singh",
         rating: 5,
         date: "2024-01-15",
         comment: "Amazing experience! Well organized trip with great guides and beautiful destinations. Highly recommended for anyone looking for a memorable vacation."
       },
       {
         id: "2",
-        name: "Adventure Seeker",
+        name: "Manya sharma",
         rating: 4,
         date: "2024-01-08",
         comment: "Great package with good value for money. The itinerary was well planned and we enjoyed every moment of our trip."
@@ -155,14 +155,12 @@ const PackageDetailsPage = () => {
     ],
     inclusions: [
       "Accommodation as per itinerary",
-      "All meals during the trip",
+      "Complimentary Breakfast",
       "Professional guide",
       "Transportation",
-      "Entry fees to attractions",
       "Airport transfers"
     ],
     exclusions: [
-      "International flights",
       "Personal expenses",
       "Travel insurance",
       "Tips and gratuities",
