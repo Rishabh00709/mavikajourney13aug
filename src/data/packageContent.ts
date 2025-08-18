@@ -84,12 +84,17 @@ export const packageContent: Record<string, PackageContent> = {
       }
     ],
     inclusions: [
-      "3 nights accommodation ",
-      "Complimentary Breakfast ",
+      "3 nights accommodation in heritage hotel",
+      "All meals (breakfast, lunch, dinner)",
+      "Private boat rides on Ganges",
+      "Expert local guide",
+      "All temple entry fees",
       "Airport transfers",
-      "Sarnath excursion with transport"
+      "Sarnath excursion with transport",
+      "Traditional silk workshop"
     ],
     exclusions: [
+      "International flights",
       "Personal expenses",
       "Tips and gratuities",
       "Travel insurance",
@@ -214,6 +219,8 @@ export const packageContent: Record<string, PackageContent> = {
       "5 nights accommodation (Port Blair, Havelock, Neil Island)",
       "All inter-island ferry transfers",
       "Airport pickup and drop",
+      "Cellular Jail Light & Sound Show tickets",
+      "Water sports activities at Elephant Beach",
       "Snorkeling equipment and guide"
     ],
     exclusions: [
@@ -334,10 +341,10 @@ export const packageContent: Record<string, PackageContent> = {
     ],
     inclusions: [
       "4 nights accommodation in beachfront hotels",
-      "Daily breakfast",
+      "Daily breakfast and select meals",
       "Airport/railway station transfers",
       "Fort Aguada and Old Goa guided tours",
-      "Dudhsagar Falls jeep safari ",
+      "Dudhsagar Falls jeep safari with guide",
       "Spice plantation tour with traditional lunch",
       "Mandovi River cruise with cultural show",
       "Water sports equipment and safety gear"
@@ -403,6 +410,161 @@ export const packageContent: Record<string, PackageContent> = {
         date: "2024-01-20",
         comment: "Amazing spiritual and adventure combination! The yoga sessions by the Ganges were life-changing. Haridwar's Ganga Aarti gave me goosebumps and Rishikesh is truly the yoga capital. The white water rafting was thrilling! Beatles Ashram was fascinating. Perfect trip for both spirituality and adventure. Our guide knew every temple's history."
       }
+    ],
+    inclusions: [
+      "4 nights accommodation in riverside hotels",
+      "All meals (vegetarian)",
+      "Railway station transfers",
+      "Temple entry fees and cable car rides",
+      "Yoga sessions with certified instructors",
+      "White water rafting with safety equipment",
+      "Guided tours of ashrams and temples"
+    ],
+    exclusions: [
+      "International flights",
+      "Personal expenses",
+      "Tips and gratuities",
+      "Travel insurance",
+      "Additional activities not mentioned",
+      "Alcoholic beverages"
+    ]
+  },
+
+  "beach-lakshadweep": {
+    overview: "Discover India's most pristine coral islands in Lakshadweep, a tropical paradise with crystal-clear lagoons, white sand beaches, and vibrant marine life. This exclusive destination offers untouched natural beauty, world-class snorkeling and diving opportunities, and the unique culture of these remote islands. With limited permits making this a truly exclusive experience, explore multiple atolls, engage with local island communities, and witness some of the most spectacular coral reefs in the Indian Ocean.",
+    highlights: [
+      "Explore pristine coral atolls with crystal-clear lagoons",
+      "World-class snorkeling and diving in untouched coral reefs",
+      "Experience unique Lakshadweep island culture and traditions",
+      "Visit multiple islands including Agatti, Bangaram, and Kavaratti",
+      "Enjoy water sports in the clearest waters of India",
+      "Witness spectacular marine life including tropical fish and sea turtles"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival at Agatti Island",
+        description: "Fly into Agatti Airport, the gateway to Lakshadweep. Check into your beach resort and begin your tropical island adventure with orientation and first glimpse of the pristine lagoons.",
+        activities: [
+          "Flight arrival at Agatti Airport",
+          "Resort check-in with welcome coconut water",
+          "Orientation about Lakshadweep islands and culture",
+          "First lagoon exploration and swimming",
+          "Sunset viewing from Agatti Beach",
+          "Traditional Lakshadweep dinner with fresh seafood"
+        ]
+      },
+      {
+        day: 2,
+        title: "Agatti Island Water Sports and Coral Exploration",
+        description: "Full day of water activities around Agatti Island, including snorkeling in pristine coral reefs and various water sports in the crystal-clear lagoon.",
+        activities: [
+          "Morning snorkeling session in Agatti coral reefs",
+          "Kayaking in the turquoise lagoon",
+          "Glass-bottom boat ride for coral viewing",
+          "Scuba diving for certified divers (optional)",
+          "Beach volleyball and island games",
+          "Traditional fishing with local fishermen",
+          "Beachside barbecue dinner under the stars"
+        ]
+      },
+      {
+        day: 3,
+        title: "Bangaram Island Day Trip",
+        description: "Boat excursion to the uninhabited Bangaram Island, known for its pristine beaches and excellent diving spots. Experience the untouched beauty of this coral atoll.",
+        activities: [
+          "Early morning boat transfer to Bangaram Island",
+          "Exploration of uninhabited island beaches",
+          "Snorkeling at Bangaram's famous coral gardens",
+          "Beach picnic lunch on pristine white sands",
+          "Deep-sea fishing experience",
+          "Sunset photography on secluded beaches",
+          "Return to Agatti for dinner and rest"
+        ]
+      },
+      {
+        day: 4,
+        title: "Kavaratti Island Cultural Experience",
+        description: "Visit Kavaratti, the administrative capital of Lakshadweep, to experience local culture, visit the marine aquarium, and explore traditional island life.",
+        activities: [
+          "Boat transfer to Kavaratti Island",
+          "Visit to Kavaratti Marine Aquarium",
+          "Exploration of traditional island villages",
+          "Interaction with local artisans and craftspeople",
+          "Traditional Lakshadweep lunch with local family",
+          "Visit to local mosques and cultural sites",
+          "Evening cultural performance by islanders"
+        ]
+      },
+      {
+        day: 5,
+        title: "Water Sports and Island Hopping",
+        description: "Adventure day with various water sports, island hopping to smaller atolls, and exploration of different coral formations around the archipelago.",
+        activities: [
+          "Windsurfing and sailing lessons",
+          "Visit to Thinnakara Island for pristine beaches",
+          "Snorkeling at multiple coral reef sites",
+          "Dolphin watching boat excursion",
+          "Beach combing and shell collection",
+          "Underwater photography session",
+          "Farewell dinner with traditional island music"
+        ]
+      },
+      {
+        day: 6,
+        title: "Departure",
+        description: "Final morning relaxation and departure from this tropical paradise with unforgettable memories of India's most exclusive island destination.",
+        activities: [
+          "Final sunrise viewing over the lagoon",
+          "Last-minute souvenir shopping",
+          "Resort check-out and packing",
+          "Transfer to Agatti Airport",
+          "Departure flight with aerial views of the atolls"
+        ]
+      }
+    ],
+    reviews: [
+      {
+        id: "1",
+        name: "Deepak Nair",
+        rating: 5,
+        date: "2024-02-20",
+        comment: "Absolutely magical experience! Lakshadweep is truly India's best-kept secret. The water clarity is unbelievable - you can see the coral reefs from the surface. Bangaram Island was like stepping into paradise. The snorkeling was world-class with so many colorful fish and healthy corals. Limited tourists make it feel exclusive and pristine."
+      },
+      {
+        id: "2",
+        name: "Priyanka Sharma",
+        rating: 5,
+        date: "2024-01-15",
+        comment: "Perfect honeymoon destination! The islands are so pristine and untouched. Agatti resort was comfortable and the staff was incredibly helpful. The cultural experience in Kavaratti was enlightening - learned so much about island life. The coral reefs are the most beautiful I've ever seen. Worth every penny for this exclusive experience!"
+      },
+      {
+        id: "3",
+        name: "Rajesh Kumar",
+        rating: 4,
+        date: "2023-12-28",
+        comment: "Amazing diving and snorkeling destination! The marine life is incredible - saw sea turtles, reef sharks, and countless tropical fish. The water sports were fantastic. Only suggestion is to book well in advance as permits are limited. The island hopping was well-organized and each island had its unique charm. Highly recommend for adventure seekers!"
+      }
+    ],
+    inclusions: [
+      "5 nights accommodation in beach resort",
+      "Return flights ",
+      "All inter-island boat transfers",
+      "Snorkeling equipment",
+      "Glass-bottom boat rides",
+      "Cultural tours and village visits",
+      "Water sports activities",
+      "Professional diving guide (for certified divers)"
+    ],
+    exclusions: [
+      "International flights to Kochi",
+      "Lakshadweep entry permits (we assist with application)",
+      "Personal expenses and shopping",
+      "Scuba diving certification courses",
+      "Travel insurance",
+      "Tips and gratuities",
+      "Alcoholic beverages (not available on islands)",
+      "Additional water sports not mentioned"
     ]
   }
-}
+};
